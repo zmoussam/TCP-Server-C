@@ -1,2 +1,2 @@
-# httpServer
-This project is about writing your ow HTTP server. You will be able to test it with an actual browser. HTTP is one of the most used protocols on the internet. Knowing its arcane will be useful, even if you won’t be working on a website.
+# TCP_Server
+A TCP server listens on a well-known port (or IP address and port pair) and accepts connections from TCP clients. A TCP client initiates a connection request to a TCP server in order to setup a connection with the server. A real TCP server can accept multiple connections on a socket.
