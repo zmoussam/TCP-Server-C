@@ -20,17 +20,21 @@ Before using the TCP server, make sure you have the following:
    git clone https://github.com/zmoussam/TCP_Server_C-
    
 2. Navigate to the project directory:
+    ```bash
     cd TCP_server
 
 3.Compile the server source code:
+  ```bash
   g++ server.cpp -o server
 
 4.Run the server:
+   ```bash
   ./server
 
 ## Usage
 
 1.Once the server is running, open another terminal window and use a TCP client (e.g., netcat) to connect to the server:
+  ```bash
   nc localhost 9999
 
 Replace 9999 with the port number specified in the server.cpp file.
