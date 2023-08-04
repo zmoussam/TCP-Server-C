@@ -29,19 +29,19 @@ Before using the TCP server, make sure you have the following:
 
 4. Run the server:
    ```bash
-  ./server
+   ./server
 
 ## Usage
 
-1.Once the server is running, open another terminal window and use a TCP client (e.g., netcat) to connect to the server:
+1. Once the server is running, open another terminal window and use a TCP client (e.g., netcat) to connect to the server:
   ```bash
   nc localhost 9999
 
 Replace 9999 with the port number specified in the server.cpp file.
 
-2.You can now send and receive messages through the terminal. Type a message and press Enter to send it to the server. The server will display incoming messages on its terminal.
+2. You can now send and receive messages through the terminal. Type a message and press Enter to send it to the server. The server will display incoming messages on its terminal.
 
-3.To exit, simply close the TCP client terminal and stop the server by pressing Ctrl + C in the terminal where the server is running
+3. To exit, simply close the TCP client terminal and stop the server by pressing Ctrl + C in the terminal where the server is running
 
 ## Customization
 
