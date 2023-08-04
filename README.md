@@ -22,10 +22,10 @@ Before using the TCP server, make sure you have the following:
 2. Navigate to the project directory:
     ```bash
     cd TCP_server
-
+    
 3.Compile the server source code:
-  ```bash
-g++ server.cpp -o server
+   ```bash
+   g++ server.cpp -o server
 
 4.Run the server:
    ```bash
