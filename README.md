@@ -34,11 +34,9 @@ Before using the TCP server, make sure you have the following:
 ## Usage
 
 1. Once the server is running, open another terminal window and use a TCP client (e.g., netcat) to connect to the server:
+   Replace 9999 with the port number specified in the server.cpp file.
   ```bash
   nc localhost 9999
-  ```
-
-Replace 9999 with the port number specified in the server.cpp file.
 
 2. You can now send and receive messages through the terminal. Type a message and press Enter to send it to the server. The server will display incoming messages on its terminal.
 
