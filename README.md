@@ -1,5 +1,6 @@
 # TCP_Server
 A TCP server listens on a well-known port (or IP address and port pair) and accepts connections from TCP clients. A TCP client initiates a connection request to a TCP server in order to setup a connection with the server. A real TCP server can accept multiple connections on a socket.
+
 <img width="449" alt="Screen Shot 2023-08-05 at 6 00 12 PM" src="https://github.com/zmoussam/TCP_Server_C-/assets/90983110/1978b6ae-3007-4a92-94a7-9c4a3490ea53">
 
 # TCP Server in C++
